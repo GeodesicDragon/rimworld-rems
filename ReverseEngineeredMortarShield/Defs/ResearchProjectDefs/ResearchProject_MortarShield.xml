@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Abstract="True" Name="REMS">
+    <baseCost>4800</baseCost>
+    <techLevel>Spacer</techLevel>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>0.25</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="REMS">
+		<defName>ReverseEngineerMechShields</defName>
+		<label>mechanoid shield tech</label>
+		<description>Reverse engineer mechanoid shields to produce versions that can be built by your colonists.</description>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tab>PlayerMortarShield</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+</Defs>

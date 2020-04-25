@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="BuildingBase">
+    <defName>PlayerShieldGeneratorBullets</defName>
+	<thingClass>Building</thingClass>
+	<category>Building</category>
+    <label>bullet shield (human made)</label>
+	<tradeability>None</tradeability>
+    <description>A shielding device, based on mechanoid tech, which will block incoming bullets within a certain radius. Requires power.</description>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>18000</WorkToBuild>
+	  <Mass>30</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/PlayerShieldGeneratorBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.6, 0.4, 0.6)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2, 0.2, 0.6, 0.6)</rect>
+      </damageData>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <placeWorkers>
+      <li>PlaceWorker_ShowProjectileInterceptorRadius</li>
+    </placeWorkers>
+	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <comps>
+      <li Class="CompProperties_ProjectileInterceptor">
+        <radius>5</radius>
+        <interceptGroundProjectiles>true</interceptGroundProjectiles>
+        <color>(0, 1, 0)</color>
+        <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+        <disarmedByEmpForTicks>1800</disarmedByEmpForTicks>
+        <chargeIntervalTicks>600000</chargeIntervalTicks>
+        <chargeDurationTicks>60000</chargeDurationTicks>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <costList>
+		<Steel>600</Steel>
+		<Plasteel>100</Plasteel>
+		<Uranium>50</Uranium>
+		<ComponentSpacer>2</ComponentSpacer>
+    </costList>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<designationCategory>Security</designationCategory>
+	<researchPrerequisites>
+      <li>ReverseEngineerMechShields</li>
+    </researchPrerequisites>
+	<hasTooltip>true</hasTooltip>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>
