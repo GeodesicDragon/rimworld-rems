@@ -7,12 +7,22 @@
 	<supportedVersions>
 		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+	</modDependencies>
 	<description>With all the mechanoid clusters that have been landing on the rimworlds as of late, it was only a matter of time before some bright spark conceived a way to use their technology for the betterment of colonists everywhere. The results are mortar and bullet shields which don't protect as large of an area, take a while to recharge and require a fair chunk of power and are expensive to build, but still have the potential to help a colony hold out against a siege or raid for longer than they might have done without them.</description>
 </ModMetaData>
 
 <!--
 
 CHANGELOG
+
+Version 1.3.40 (April 29th 2020)
+
+* At the request of the game's developers, owning the Royalty DLC is once again required in order to use this mod.
 
 Version 1.3.40 (April 25th 2020)
 
