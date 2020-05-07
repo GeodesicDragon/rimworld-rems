@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlayerShieldGeneratorBullets.label>kugelsicher schild (künstlich hergestellt)</PlayerShieldGeneratorBullets.label>
+  <PlayerShieldGeneratorBullets.description>Eine auf Mechanoid-Technologie basierende Abschirmvorrichtung, die eingehende kugel innerhalb eines bestimmten Radius blockiert. Benötigt Strom.</PlayerShieldGeneratorBullets.description>
+  <PlayerShieldGeneratorBullets_Blueprint.label>kugelsicher schild (künstlich hergestellt) (Entwurf)</PlayerShieldGeneratorBullets_Blueprint.label>
+  <PlayerShieldGeneratorBullets_Blueprint_Install.label>kugelsicher schild (künstlich hergestellt) (Entwurf)</PlayerShieldGeneratorBullets_Blueprint_Install.label>
+  <PlayerShieldGeneratorBullets_Frame.label>kugelsicher schild (künstlich hergestellt) (gebäude)</PlayerShieldGeneratorBullets_Frame.label>
+  <PlayerShieldGeneratorBullets_Frame.description>Eine auf Mechanoid-Technologie basierende Abschirmvorrichtung, die eingehende kugel innerhalb eines bestimmten Radius blockiert. Benötigt Strom.</PlayerShieldGeneratorBullets_Frame.description>
+
+
+</LanguageData>
