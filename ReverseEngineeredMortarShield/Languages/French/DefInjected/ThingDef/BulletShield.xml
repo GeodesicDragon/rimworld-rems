@@ -2,11 +2,11 @@
 <LanguageData>
 
   <PlayerShieldGeneratorBullets.label>bouclier pare-balles (fabriqué par l'Homme)</PlayerShieldGeneratorBullets.label>
-  <PlayerShieldGeneratorBullets.description>Un dispositif de protection, basé sur la technologie mécanoïde, qui bloquera les balles entrantes dans un certain rayon. Nécessite de l'énergie.</PlayerShieldGeneratorBullets.description>
+  <PlayerShieldGeneratorBullets.description>Un dispositif de protection, basé sur la technologie mécanoïde, qui bloque les balles entrantes dans un certain rayon. Nécessite de l'énergie.</PlayerShieldGeneratorBullets.description>
   <PlayerShieldGeneratorBullets_Blueprint.label>bouclier pare-balles (fabriqué par l'Homme) (plan)</PlayerShieldGeneratorBullets_Blueprint.label>
   <PlayerShieldGeneratorBullets_Blueprint_Install.label>bouclier pare-balles (fabriqué par l'Homme) (plan)</PlayerShieldGeneratorBullets_Blueprint_Install.label>
   <PlayerShieldGeneratorBullets_Frame.label>bouclier pare-balles (fabriqué par l'Homme) (bâtiment)</PlayerShieldGeneratorBullets_Frame.label>
-  <PlayerShieldGeneratorBullets_Frame.description>Un dispositif de protection, basé sur la technologie mécanoïde, qui bloquera les balles entrantes dans un certain rayon. Nécessite de l'énergie.</PlayerShieldGeneratorBullets_Frame.description>
+  <PlayerShieldGeneratorBullets_Frame.description>Un dispositif de protection, basé sur la technologie mécanoïde, qui bloque les balles entrantes dans un certain rayon. Nécessite de l'énergie.</PlayerShieldGeneratorBullets_Frame.description>
 
 
 </LanguageData>
