@@ -13,7 +13,7 @@
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>0</Flammability>
-      <WorkToBuild>18000</WorkToBuild>
+      <WorkToBuild>14400</WorkToBuild>
 	  <Mass>30</Mass>
     </statBases>
     <graphicData>
@@ -44,11 +44,11 @@
         <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
         <disarmedByEmpForTicks>1800</disarmedByEmpForTicks>
         <chargeIntervalTicks>600000</chargeIntervalTicks>
-        <chargeDurationTicks>60000</chargeDurationTicks>
+        <chargeDurationTicks>43200</chargeDurationTicks>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1000</basePowerConsumption>
+        <basePowerConsumption>800</basePowerConsumption>
       </li>
 	  <li Class="CompProperties_Flickable"/>
 	  <li Class="CompProperties_Breakdownable"/>
@@ -56,8 +56,8 @@
     <costList>
 		<Steel>800</Steel>
 		<Plasteel>150</Plasteel>
-		<Uranium>50</Uranium>
-		<ComponentSpacer>3</ComponentSpacer>
+		<Uranium>100</Uranium>
+		<ComponentSpacer>4</ComponentSpacer>
     </costList>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<designationCategory>Security</designationCategory>

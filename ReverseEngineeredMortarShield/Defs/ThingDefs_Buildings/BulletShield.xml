@@ -13,7 +13,7 @@
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>0</Flammability>
-      <WorkToBuild>18000</WorkToBuild>
+      <WorkToBuild>14400</WorkToBuild>
 	  <Mass>30</Mass>
     </statBases>
     <graphicData>
@@ -38,17 +38,17 @@
     <rotatable>false</rotatable>
     <comps>
       <li Class="CompProperties_ProjectileInterceptor">
-        <radius>5</radius>
+        <radius>8</radius>
         <interceptGroundProjectiles>true</interceptGroundProjectiles>
         <color>(0, 1, 0)</color>
         <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
         <disarmedByEmpForTicks>1800</disarmedByEmpForTicks>
         <chargeIntervalTicks>600000</chargeIntervalTicks>
-        <chargeDurationTicks>60000</chargeDurationTicks>
+        <chargeDurationTicks>43200</chargeDurationTicks>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1000</basePowerConsumption>
+        <basePowerConsumption>800</basePowerConsumption>
       </li>
 	  <li Class="CompProperties_Flickable"/>
 	  <li Class="CompProperties_Breakdownable"/>
@@ -56,8 +56,8 @@
     <costList>
 		<Steel>600</Steel>
 		<Plasteel>100</Plasteel>
-		<Uranium>50</Uranium>
-		<ComponentSpacer>2</ComponentSpacer>
+		<Uranium>100</Uranium>
+		<ComponentSpacer>3</ComponentSpacer>
     </costList>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<designationCategory>Security</designationCategory>

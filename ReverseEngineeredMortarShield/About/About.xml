@@ -20,6 +20,20 @@
 
 CHANGELOG
 
+Version 1.8.52 (May 13th 2020)
+
+* Increased bullet shield protection radius to 8 (was 5).
+* Reduced work amount of building both shields to 240 (was 300).
+* Reduced power usage of both shields to 800W (was 1000W).
+* Reduced recharge time of both shields to 17 hours (was 1 day).
+* Increased uranium requirement for building both shields to 100 (was 50).
+* Increased advanced component requirement for building bullet shields to 3 (was 2).
+* Increased advanced component requirement for building mortar shields to 4 (was 3).
+
+Version 1.8.41 (May 7th 2020)
+
+* Updated French translation, courtesy of yaannaa.
+
 Version 1.8.40 (May 7th 2020)
 
 * Added French language support. (Ajout de la prise en charge de la langue française.)
