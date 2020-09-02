@@ -1,0 +1,116 @@
+Version 1.9.62 (August 28th 2020)
+
+Months have passed since the first mech cluster touched down on the rimworlds; with so many people using the tech to defend themselves against the mechanoids (and each other), it was only a matter of time before traders decided to get in on the action. As a result, numerous caravans and orbital traders have begun offering either the basic materials required to build shields, or completed units which only need to be installed.
+
+* Bullet and mortar shields can now be traded.
+* Added a trader who will buy and sell both varieties of shield.
+	* The trader also carries varying quantities of steel, plasteel, uranium and advanced components.
+	* The price of materials at this trader will fluctuate, up to a maximum of 100% of the item's market value (50% for advanced components).
+	* The amount of these resources is between X and Y, where X is the amount needed for a bullet shield, and Y is the amount needed for a mortar shield.
+		* 100 uranium is required for both shields, so that will always be the amount available for sale.
+	* The trader also carries between 5000 and 7500 silver.
+* Set market value of bullet shield to 5000 silver.
+* Set market value of mortar shield to 7500 silver.
+
+Version 1.8.58 (August 26th 2020)
+
+* Mod is now compatible with the RimWorld 1.2 update.
+* Increased the cost of researching the technology to 7200 (was 4800).
+* Reduced the steel cost of the bullet shield to 450 (was 600).
+* Reduced the steel cost of the mortar shield to 600 (was 800).
+* A broadshield core is now required to build a bullet shield.
+* A broadshield core is now required to build a mortar shield.
+
+AUTHOR NOTE: Requiring a broadshield core adds a bit more realism to the mod; you get the cores from mechanoid shields, so it stands to reason you'd use them to build your own. This will, of course, restrict how many shields you can actually build, unless you get a lot of mech clusters, though there are mods which let you craft your own broadshield cores.
+
+Version 1.8.52 (May 13th 2020)
+
+* Increased bullet shield protection radius to 8 (was 5).
+* Reduced work amount of building both shields to 240 (was 300).
+* Reduced power usage of both shields to 800W (was 1000W).
+* Reduced recharge time of both shields to 17 hours (was 1 day).
+* Increased uranium requirement for building both shields to 100 (was 50).
+* Increased advanced component requirement for building bullet shields to 3 (was 2).
+* Increased advanced component requirement for building mortar shields to 4 (was 3).
+
+Version 1.8.41 (May 7th 2020)
+
+* Updated French translation, courtesy of yaannaa.
+
+Version 1.8.40 (May 7th 2020)
+
+* Added French language support. (Ajout de la prise en charge de la langue française.)
+* Added German language support. (Unterstützung für die deutsche Sprache hinzugefügt.)
+
+PLEASE NOTE: I used Google to acquire these translations; if they are wrong, please let me know.
+VEUILLEZ NOTER: J'ai utilisé Google pour acquérir ces traductions; s'ils ont tort, faites-le moi savoir.
+BITTE BEACHTEN SIE: Ich habe Google verwendet, um diese Übersetzungen zu erhalten. Wenn einer von ihnen falsch ist, lassen Sie es mich bitte wissen.
+
+Version 1.6.40 (May 2nd 2020)
+
+* Updated both shields with new textures, which I acquired from an 'unknown alien' (seriously, that's how they wanted to be credited).
+
+Version 1.4.40 (April 29th 2020)
+
+* At the request of the game's developers, owning the Royalty DLC is once again required in order to use this mod.
+
+Version 1.3.40 (April 25th 2020)
+
+* Changed name of research tab to 'Mech Tech' (was 'Mortar Shield').
+* Fixed shield recharge times going into negative values.
+	* Author Note: Many thanks to Fluffy from the RimWorld Discord for helping to fix this issue.
+* Increased techprint market value to 3000 (was 2500).
+* Lowered mass of uninstalled shields to 30 (was 75).
+* Changed work value of building both shields to 300 (was 750).
+	* Author Note: Actually, it was 13; I didn't realise that the work value specified in the XML file is then divided by 60 to get the in-game value.
+* Made a slight adjustment to the texture of both shields.
+	* Author Note: I know I could have carried on using the existing texture, but I wanted to use my own. As you'll see, it's not a good edit; if you can anything better, please let me know!
+
+Version 1.3.30 (April 23rd 2020)
+
+* Both shields can now be uninstalled and reinstalled.
+	* Author Note: This change means that players have greater flexibility in where they can put the shields; it also means they no longer have to deconstruct them when they are not needed.
+* Both shields now show a tooltip showing the building's health when hovered over with the mouse cursor.
+* Increased HP of both shields back to 150.
+* Both shields now require 750 work to build (was 1000).
+* Both shields now have a mass of 75kg (was 0).
+	* Author Note: I had to give them a mass when I allowed them to be uninstallable; they can still not be sold to, or purchased from, any traders.
+
+Version 1.2.20 (April 20th 2020)
+
+- Both shields no longer leave behind resources when destroyed.
+	- Author Note: My own testing showed that these structures left behind a sizeable amount of resources and slag chunks when destroyed.
+	- This change makes it harder for players to reconstruct them, and forces them to manage their resources more efficiently.
+- Both shields now have 100HP each (was 150).
+	- Author Note: This change means that players will have to rethink their defensive strategy, as any opportunistic melee attacker can easily make short work of it out in the open.
+- Both shields now require 1000W of power each (was 500W for the bullet shield and 750W for the mortar shield).
+	- Author Note: Increasing the power requirement means that players won't be able to construct as many of these buildings as they could before.
+	- They will have to choose between extending their power grid, thus meaning they'll have more areas to protect, or sacrificing some areas to defend others.
+- Both shields now require 50 Uranium for construction.
+	- Author Note: Requiring Uranium for construction means that players will have to wait a while before they can start building these structures.
+- Both shields now require a pawn with a Construction skill of at least 10 (was 8).
+	- Author Note: This is advanced technology, after all; it makes sense to increase the skill required to build it.
+- Both shields no longer reduce beauty in the area where they are constructed.
+	- Author Note: Given what they do, I think colonists would say they are wonderful things, and therefore not ugly at all.
+
+Version 1.2.8 (April 19th 2020)
+
+- Increased tech level of research to Spacer (was Industrial).
+- Increased cost of research to 4800 (was 3600).
+- Changed name of research to 'mechanoid shield tech.'
+- Changed description of mortar shield.
+- Changed description of bullet shield.
+- Research now requires 2 techprints, which can be obtained (rarely) from the imperial faction.
+
+Version 1.1.3 (April 19th 2020)
+
+- Added bullet shield
+	- Protection radius: 5
+	- Required materials: 600 steel, 100 plasteel and 2 advanced components
+	- Power usage: 500W
+- Reduced protection radius of the mortar shield to 10 (was 15).
+- Changed mod name; you may have to re-enable it as a result.
+
+Version 1.0.1 (April 19th 2020)
+
+- Initial Release.

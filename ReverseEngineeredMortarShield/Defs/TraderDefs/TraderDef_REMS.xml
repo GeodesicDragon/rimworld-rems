@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TraderKindDef>
+		<defName>Caravan_Mech_Shield_Trader</defName>
+		<label>mechanoid shield trader</label>
+		<commonality>0.2</commonality>
+		<requestable>false</requestable>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>7500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PlayerShieldGeneratorMortar</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PlayerShieldGeneratorBullets</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>450~600</countRange>
+				<totalPriceRange>1.9~3.8</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Plasteel</thingDef>
+				<countRange>100~150</countRange>
+				<totalPriceRange>9~18</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Uranium</thingDef>
+				<countRange>100</countRange>
+				<totalPriceRange>6~12</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>3~4</countRange>
+				<totalPriceRange>200~300</totalPriceRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef>
+		<defName>Orbital_Mech_Shield_Trader</defName>
+		<label>mechanoid shield trader</label>
+		<commonality>0.2</commonality>
+		<orbital>true</orbital>
+		<requestable>false</requestable>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>7500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PlayerShieldGeneratorMortar</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PlayerShieldGeneratorBullets</thingDef>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>450~600</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Plasteel</thingDef>
+				<countRange>100~150</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Uranium</thingDef>
+				<countRange>100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>3~4</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+</Defs>

@@ -6,11 +6,11 @@
 	<thingClass>Building</thingClass>
 	<category>Building</category>
     <label>mortar shield (human made)</label>
-	<tradeability>None</tradeability>
     <description>A shielding device, based on mechanoid tech, which will block incoming mortars within a certain radius. Requires power.</description>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <size>(1,1)</size>
     <statBases>
+	  <MarketValue>7500</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>14400</WorkToBuild>
@@ -54,10 +54,11 @@
 	  <li Class="CompProperties_Breakdownable"/>
     </comps>
     <costList>
-		<Steel>800</Steel>
+		<Steel>600</Steel>
 		<Plasteel>150</Plasteel>
 		<Uranium>100</Uranium>
 		<ComponentSpacer>4</ComponentSpacer>
+		<BroadshieldCore>1</BroadshieldCore>
     </costList>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<designationCategory>Security</designationCategory>

@@ -6,11 +6,11 @@
 	<thingClass>Building</thingClass>
 	<category>Building</category>
     <label>bullet shield (human made)</label>
-	<tradeability>None</tradeability>
     <description>A shielding device, based on mechanoid tech, which will block incoming bullets within a certain radius. Requires power.</description>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <size>(1,1)</size>
     <statBases>
+	  <MarketValue>5000</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkToBuild>14400</WorkToBuild>
@@ -54,10 +54,11 @@
 	  <li Class="CompProperties_Breakdownable"/>
     </comps>
     <costList>
-		<Steel>600</Steel>
+		<Steel>450</Steel>
 		<Plasteel>100</Plasteel>
 		<Uranium>100</Uranium>
 		<ComponentSpacer>3</ComponentSpacer>
+		<BroadshieldCore>1</BroadshieldCore>
     </costList>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<designationCategory>Security</designationCategory>
