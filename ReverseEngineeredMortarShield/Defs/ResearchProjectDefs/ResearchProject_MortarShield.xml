@@ -8,7 +8,7 @@
 	<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
-    <techprintCount>2</techprintCount>
+    <techprintCount>3</techprintCount>
     <techprintCommonality>0.25</techprintCommonality>
     <techprintMarketValue>3000</techprintMarketValue>
     <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
@@ -24,5 +24,7 @@
 		<tab>PlayerMortarShield</tab>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>Building Shields</discoveredLetterTitle>
+		<discoveredLetterText>You now have the technology to build your own bullet and mortar shields.\nBuilding these items requires broadshield cores, which you can acquire from mechanoid clusters, though some traders may sell them as well.</discoveredLetterText>
 	</ResearchProjectDef>
 </Defs>

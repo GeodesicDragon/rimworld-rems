@@ -8,7 +8,7 @@
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
-				<countRange>7500</countRange>
+				<countRange>20000</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PlayerShieldGeneratorMortar</thingDef>
@@ -20,22 +20,22 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Steel</thingDef>
-				<countRange>450~600</countRange>
+				<countRange>600</countRange>
 				<totalPriceRange>1.9~3.8</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Plasteel</thingDef>
-				<countRange>100~150</countRange>
+				<countRange>150</countRange>
 				<totalPriceRange>9~18</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Uranium</thingDef>
-				<countRange>100</countRange>
+				<countRange>200</countRange>
 				<totalPriceRange>6~12</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentSpacer</thingDef>
-				<countRange>3~4</countRange>
+				<countRange>5</countRange>
 				<totalPriceRange>200~300</totalPriceRange>
 			</li>
 		</stockGenerators>
@@ -50,7 +50,7 @@
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
-				<countRange>7500</countRange>
+				<countRange>20000</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PlayerShieldGeneratorMortar</thingDef>
@@ -62,19 +62,23 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Steel</thingDef>
-				<countRange>450~600</countRange>
+				<countRange>600</countRange>
+				<totalPriceRange>1.9~3.8</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Plasteel</thingDef>
-				<countRange>100~150</countRange>
+				<countRange>150</countRange>
+				<totalPriceRange>9~18</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Uranium</thingDef>
-				<countRange>100</countRange>
+				<countRange>200</countRange>
+				<totalPriceRange>6~12</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentSpacer</thingDef>
-				<countRange>3~4</countRange>
+				<countRange>5</countRange>
+				<totalPriceRange>200~300</totalPriceRange>
 			</li>
 		</stockGenerators>
 	</TraderKindDef>
