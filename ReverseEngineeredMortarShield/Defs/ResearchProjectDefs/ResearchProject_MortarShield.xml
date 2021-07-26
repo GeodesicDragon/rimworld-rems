@@ -2,16 +2,20 @@
 <Defs>
 
   <ResearchProjectDef Abstract="True" Name="REMS">
-    <baseCost>7200</baseCost>
-    <techLevel>Spacer</techLevel>
+    <baseCost>5400</baseCost>
+    <techLevel>Industrial</techLevel>
 	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 	<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
-    <techprintCount>3</techprintCount>
-    <techprintCommonality>0.25</techprintCommonality>
-    <techprintMarketValue>3000</techprintMarketValue>
-    <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>0.4</techprintCommonality>
+    <techprintMarketValue>2500</techprintMarketValue>
+    <heldByFactionCategoryTags>
+		<li>OutlanderCivil</li>
+		<li>OutlanderRough</li>
+		<li>Empire</li>
+	</heldByFactionCategoryTags>
   </ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="REMS">

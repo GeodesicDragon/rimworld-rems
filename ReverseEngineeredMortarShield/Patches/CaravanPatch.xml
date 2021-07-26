@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!--OUTLANDER FACTIONS-->
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+	    <value>
+	        <li>REMS_MechanoidShieldTrader</li>
+	    </value>
+	</Operation>
+	
+	<!--IMPERIAL FACTIONS-->
+	<Operation Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Royalty">
+		<xpath>/Defs/FactionDef[defName="Empire"]/caravanTraderKinds</xpath>
+		<value>
+			<li>REMS_MechanoidShieldTrader</li>
+		</value>
+	</Operation>
+	
+	<!--MSF (IF MOD IS ENABLED)-->
+	<Operation Class="PatchOperationAdd" MayRequire="RH.Faction.Militaires.Sans.Frontieres">
+		<success>Always</success>
+		<xpath>/Defs/FactionDef[@Name="RH_FactionBase_MSF"]/caravanTraderKinds</xpath>
+		<value>
+			<li>REMS_MechanoidShieldTrader</li>
+		</value>
+	</Operation>
+	
+	<!--UAC (IF MOD IS ENABLED)-->
+	<Operation Class="PatchOperationAdd" MayRequire="RH.Faction.UAC">
+		<success>Always</success>
+		<xpath>/Defs/FactionDef[@Name="RH_FactionBase_UAC"]/caravanTraderKinds</xpath>
+		<value>
+			<li>REMS_MechanoidShieldTrader</li>
+		</value>
+	</Operation>
+
+</Patch>
