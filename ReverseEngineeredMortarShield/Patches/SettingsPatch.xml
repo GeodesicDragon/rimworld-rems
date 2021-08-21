@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>REMS_BulletShield_Power</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>1000</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PlayerShieldGeneratorBullets"]/comps/li/basePowerConsumption</xpath>
+				<value>
+					<basePowerConsumption>{REMS_BulletShield_Power}</basePowerConsumption> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>REMS_MortarShield_Power</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>1200</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PlayerShieldGeneratorMortar"]/comps/li/basePowerConsumption</xpath>
+				<value>
+					<basePowerConsumption>{REMS_MortarShield_Power}</basePowerConsumption> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+
+	<Operation Class="XmlExtensions.CreateSettings">
+		<modId>geodesicdragon.rems</modId> <!--MUST be the same as the one entered earlier-->
+		<label>REMS</label> <!-- This is what displays as your mod's name-->
+		<settings> <!--This is where you define what settings are in the settings menu-->
+			<li Class="XmlExtensions.Setting.Text">
+				<text>IMPORTANT: You will need to restart RimWorld after changing any of these settings.</text>
+				<font>Small</font>
+				<anchor>Middle</anchor>
+				<tooltip>null</tooltip>
+			</li>
+	
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.Textbox"> <!--Can use any class from XmlExtensions.Setting-->
+				<key>REMS_BulletShield_Power</key>
+				<label>Bullet Shield Power Requirement (W):</label>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Textbox"> <!--Can use any class from XmlExtensions.Setting-->
+				<key>REMS_MortarShield_Power</key>
+				<label>Mortar Shield Power Requirement (W):</label>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			<li Class="XmlExtensions.Setting.ResetSettings"/>
+		</settings>
+	</Operation>
+
+</Patch>

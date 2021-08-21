@@ -14,6 +14,15 @@
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
 			<displayName>Royalty</displayName>
 		</li>
+		<li>
+			<packageId>Imranfish.XMLExtensions</packageId>
+			<displayName>XML Extensions</displayName>
+			<downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+		</li>
 	</modDependencies>
+	<loadAfter>
+		<li>Imranfish.XMLExtensions</li>
+	</loadAfter>
 	<description>With all the mechanoid clusters that have been landing on the rimworlds as of late, it was only a matter of time before some bright spark conceived a way to use their technology for the betterment of colonists everywhere. With the right technology, colonists can now build their own mortar and bullet shields - which do the same job as their mechanoid counterparts - to help defend themselves against all but the most determined of attackers.</description>
 </ModMetaData>

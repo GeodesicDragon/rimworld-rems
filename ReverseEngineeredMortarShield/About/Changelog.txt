@@ -1,3 +1,12 @@
+Version 2.2.12 (August 21st 2021)
+
+* Are your bullet and mortar shields putting a huge strain on your power grid? Well, now you can change that... literally!
+	* You can now change how much power each shield consumes by going to Mod Settings > More Mod Settings > REMS.
+	* You will need to restart the game when you change a setting.
+	* This feature is possible thanks to the XML Extended mod by Imranfish (which is now required in order to use REMS).
+	* REMS must be loaded after XML Extended.
+	* I may add more configuration options in future, such as changing the protection radius or required materials.
+
 Version 2.0.12 (July 26th 2021)
 
 * You should no longer receive messages about failed PatchOperations if you are missing either/both of the MSF and UAC faction mods.
