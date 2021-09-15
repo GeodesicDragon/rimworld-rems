@@ -54,11 +54,11 @@
 	  <li Class="CompProperties_Breakdownable"/>
     </comps>
     <costList>
-    <Steel>600</Steel>
-    <Plasteel>150</Plasteel>
-    <Uranium>200</Uranium>
-    <ComponentSpacer>5</ComponentSpacer>
-    <BroadshieldCore>1</BroadshieldCore>
+		<Steel>600</Steel>
+		<Plasteel>150</Plasteel>
+		<Uranium>200</Uranium>
+		<ComponentSpacer>5</ComponentSpacer>
+		<BroadshieldCore>1</BroadshieldCore>
     </costList>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<designationCategory>Security</designationCategory>

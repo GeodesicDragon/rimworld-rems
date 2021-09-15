@@ -1,3 +1,10 @@
+Version 2.6.12 (September 15th 2021)
+
+* Added option to customise the protection radius of the bullet shield.
+* Added option to customise whether or not a broadshield core is needed to build a bullet shield.
+* Added option to customise the protection radius of the mortar shield.
+* Added option to customise whether or not a broadshield core is needed to build a mortar shield.
+
 Version 2.2.12 (August 21st 2021)
 
 * Are your bullet and mortar shields putting a huge strain on your power grid? Well, now you can change that... literally!
