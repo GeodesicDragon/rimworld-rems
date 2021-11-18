@@ -1,3 +1,9 @@
+Version 2.7.14 (November 18th 2021)
+
+* Added Simplified Chinese translation, courtesy of zerrrrrrrrrrrrrrrrrrrrrrrrrrrrrg.
+* Fixed techprints not being available from outlander factions.
+* Reduced commonality of techprints to 0.3 (was 0.4).
+
 Version 2.6.12 (September 15th 2021)
 
 * Added option to customise the protection radius of the bullet shield.

@@ -9,11 +9,10 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <techprintCount>2</techprintCount>
-    <techprintCommonality>0.4</techprintCommonality>
+    <techprintCommonality>0.3</techprintCommonality>
     <techprintMarketValue>2500</techprintMarketValue>
     <heldByFactionCategoryTags>
-		<li>OutlanderCivil</li>
-		<li>OutlanderRough</li>
+		<li>Outlander</li>
 		<li>Empire</li>
 	</heldByFactionCategoryTags>
   </ResearchProjectDef>
@@ -29,6 +28,6 @@
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>Building Shields</discoveredLetterTitle>
-		<discoveredLetterText>You now have the technology to build your own bullet and mortar shields.\nBuilding these items requires broadshield cores, which you can acquire from mechanoid clusters, though some traders may sell them as well.</discoveredLetterText>
+		<discoveredLetterText>You now have the technology to build your own bullet and mortar shields.\nBuilding these items requires shield cores, which you can acquire these from deconstructing shields found in mechanoid clusters.</discoveredLetterText>
 	</ResearchProjectDef>
 </Defs>
