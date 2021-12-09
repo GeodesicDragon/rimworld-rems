@@ -1,3 +1,9 @@
+Version 2.10.14 (December 9th 2021)
+
+* Added option to customise the research cost of the technology.
+* Added option to customise the tech level of the research.
+* Added option to customise the number of techprints needed for research.
+
 Version 2.7.14 (November 18th 2021)
 
 * Added Simplified Chinese translation, courtesy of zerrrrrrrrrrrrrrrrrrrrrrrrrrrrrg.

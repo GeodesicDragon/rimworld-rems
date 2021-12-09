@@ -127,6 +127,50 @@
 		</caseFalse>
 	</Operation>
 	
+<!--RESEARCH PATCHES-->
+
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>REMS_Shield_ResearchCost</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>5400</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[@Name="REMS"]/baseCost</xpath>
+				<value>
+					<baseCost>{REMS_Shield_ResearchCost}</baseCost> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>REMS_Shield_Research_TechLevel</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>Industrial</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[@Name="REMS"]/techLevel</xpath>
+				<value>
+					<techLevel>{REMS_Shield_Research_TechLevel}</techLevel> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>REMS_Shield_Research_Techprints</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>2</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[@Name="REMS"]/techprintCount</xpath>
+				<value>
+					<techprintCount>{REMS_Shield_Research_Techprints}</techprintCount> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>	
+	
 <!--SETTINGS WINDOW-->
 
 	<Operation Class="XmlExtensions.CreateSettings">
@@ -196,6 +240,64 @@
 						<label>Broadshield core required</label>
 					</li>
 				</rightCol>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Research Settings</text>
+				<font>Medium</font>
+				<anchor>Left</anchor>
+				<tooltip>null</tooltip>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Textbox">
+				<key>REMS_Shield_ResearchCost</key>
+				<label>Research Cost: </label>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap">
+				<spacing>24</spacing>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.SplitColumn">
+				<leftCol>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Tech Level: </text>
+						<font>Small</font>
+						<anchor>Right</anchor>
+						<tooltip>null</tooltip>
+					</li>
+				</leftCol>
+				<rightCol>
+					<li Class="XmlExtensions.Setting.RadioButtons">
+						<key>REMS_Shield_Research_TechLevel</key>
+						<defaultValue>Industrial</defaultValue>
+						<buttons>
+						<li>
+							<value>Neolithic</value>
+							<label>Neolithic</label>
+							</li>
+						<li>
+							<value>Medieval</value>
+							<label>Medieval</label>
+						</li>
+						<li>
+							<value>Industrial</value>
+							<label>Industrial</label>
+						</li>
+						<li>
+							<value>Spacer</value>
+							<label>Spacer</label>
+						</li>
+						</buttons>
+					</li>
+				</rightCol>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Textbox">
+				<key>REMS_Shield_Research_Techprints</key>
+				<label>Techprints Required: </label>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.GapLine"/>
