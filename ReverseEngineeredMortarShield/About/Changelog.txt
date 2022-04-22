@@ -1,3 +1,16 @@
+Version 2.10.18 (April 22nd 2022)
+
+* Re-added support for RimWorld 1.1, because I'm an idiot who thought that Royalty = RimWorld 1.2.
+
+Version 2.10.17 (March 31st 2022)
+
+* Removed support for RimWorld 1.1, since it shouldn't have been there in the first place.
+* Corrected minor issues with the French translation.
+
+Version 2.10.15 (March 5th 2022)
+
+* Fixed a minor grammatical error in the letter you receive after researching the technology.
+
 Version 2.10.14 (December 9th 2021)
 
 * Added option to customise the research cost of the technology.
