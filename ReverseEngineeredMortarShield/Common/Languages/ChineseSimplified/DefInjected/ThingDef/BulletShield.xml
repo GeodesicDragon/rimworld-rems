@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlayerShieldGeneratorBullets.label>低角机械护盾(人造)</PlayerShieldGeneratorBullets.label>
+  <PlayerShieldGeneratorBullets.description>基于机械族科技所研究的护盾装置,可以阻挡一定范围内入射的子弹,需要能量.</PlayerShieldGeneratorBullets.description>
+  <PlayerShieldGeneratorBullets_Blueprint.label>低角机械护盾(人造)(蓝图)</PlayerShieldGeneratorBullets_Blueprint.label>
+  <PlayerShieldGeneratorBullets_Blueprint_Install.label>低角机械护盾(人造) (蓝图)</PlayerShieldGeneratorBullets_Blueprint_Install.label>
+  <PlayerShieldGeneratorBullets_Frame.label>低角机械护盾(人造)(建筑)</PlayerShieldGeneratorBullets_Frame.label>
+  <PlayerShieldGeneratorBullets_Frame.description>基于机械族科技所研究的护盾装置,可以阻挡一定范围内入射的子弹,需要能量.</PlayerShieldGeneratorBullets_Frame.description>
+
+
+</LanguageData>

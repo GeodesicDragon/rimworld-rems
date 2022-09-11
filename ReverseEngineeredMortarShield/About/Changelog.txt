@@ -1,3 +1,8 @@
+Version 2.10.20 (September 11th 2022)
+
+* XML Extensions: This mod is now entirely optional, and the settings window will only be shown if it is enabled.
+* XML Extensions: Replaced the textbox for changing how many techprints the research needs with a slider.
+
 Version 2.10.18 (April 22nd 2022)
 
 * Re-added support for RimWorld 1.1, because I'm an idiot who thought that Royalty = RimWorld 1.2.

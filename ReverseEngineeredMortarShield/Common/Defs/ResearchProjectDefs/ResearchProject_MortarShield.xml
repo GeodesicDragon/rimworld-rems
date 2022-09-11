@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Abstract="True" Name="REMS">
+    <baseCost>5400</baseCost>
+    <techLevel>Industrial</techLevel>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>0.3</techprintCommonality>
+    <techprintMarketValue>2500</techprintMarketValue>
+    <heldByFactionCategoryTags>
+		<li>Outlander</li>
+		<li>Empire</li>
+	</heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="REMS">
+		<defName>ReverseEngineerMechShields</defName>
+		<label>mechanoid shield tech</label>
+		<description>Reverse engineer mechanoid shields to produce versions that can be built by your colonists.</description>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tab>PlayerMortarShield</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>Building Shields</discoveredLetterTitle>
+		<discoveredLetterText>You now have the technology to build your own bullet and mortar shields.\n\nBuilding these items requires shield cores, which you can acquire from deconstructing shields found in mechanoid clusters.</discoveredLetterText>
+	</ResearchProjectDef>
+</Defs>

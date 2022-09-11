@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="BuildingBase">
+	<tickerType>Normal</tickerType>
+    <defName>PlayerShieldGeneratorMortar</defName>
+	<thingClass>Building</thingClass>
+	<category>Building</category>
+    <label>mortar shield (human made)</label>
+    <description>A shielding device, based on mechanoid tech, which will block incoming mortars within a certain radius. Requires power.</description>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <size>(1,1)</size>
+    <statBases>
+	  <MarketValue>15000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>14400</WorkToBuild>
+	  <Mass>30</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/PlayerShieldGeneratorMortar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.6, 0.4, 0.6)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2, 0.2, 0.6, 0.6)</rect>
+      </damageData>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <placeWorkers>
+      <li>PlaceWorker_ShowProjectileInterceptorRadius</li>
+    </placeWorkers>
+	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <comps>
+      <li Class="CompProperties_ProjectileInterceptor">
+        <radius>25</radius>
+        <interceptAirProjectiles>true</interceptAirProjectiles>
+        <color>(0, 1, 0)</color>
+        <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
+        <disarmedByEmpForTicks>1080</disarmedByEmpForTicks>
+        <chargeIntervalTicks>600000</chargeIntervalTicks>
+        <chargeDurationTicks>60000</chargeDurationTicks>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1200</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <costList>
+		<Steel>600</Steel>
+		<Plasteel>150</Plasteel>
+		<Uranium>200</Uranium>
+		<ComponentSpacer>5</ComponentSpacer>
+		<BroadshieldCore>1</BroadshieldCore>
+    </costList>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<designationCategory>Security</designationCategory>
+	<researchPrerequisites>
+      <li>ReverseEngineerMechShields</li>
+    </researchPrerequisites>
+	<hasTooltip>true</hasTooltip>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlayerShieldGeneratorMortar.label>高角机械护盾(人造)</PlayerShieldGeneratorMortar.label>
+  <PlayerShieldGeneratorMortar.description>基于机械族科技所研究的护盾装置,可以阻挡一定范围内的迫击炮弹,需要能量.</PlayerShieldGeneratorMortar.description>
+  <PlayerShieldGeneratorMortar_Blueprint.label>高角机械护盾(人造) (蓝图)</PlayerShieldGeneratorMortar_Blueprint.label>
+  <PlayerShieldGeneratorMortar_Blueprint_Install.label>高角机械护盾(人造) (蓝图)</PlayerShieldGeneratorMortar_Blueprint_Install.label>
+  <PlayerShieldGeneratorMortar_Frame.label>高角机械护盾(人造) (建筑)</PlayerShieldGeneratorMortar_Frame.label>
+  <PlayerShieldGeneratorMortar_Frame.description>基于机械族科技所研究的护盾装置,可以阻挡一定范围内的迫击炮弹,需要能量.</PlayerShieldGeneratorMortar_Frame.description>
+
+
+</LanguageData>

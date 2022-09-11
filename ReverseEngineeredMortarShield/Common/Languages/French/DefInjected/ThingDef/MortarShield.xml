@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlayerShieldGeneratorMortar.label>bouclier anti-mortier (fabriqué par l'Homme)</PlayerShieldGeneratorMortar.label>
+  <PlayerShieldGeneratorMortar.description>Un dispositif de protection, basé sur la technologie mécanoïde, qui bloque les obus de mortier entrants dans un certain rayon. Nécessite de l'énergie.</PlayerShieldGeneratorMortar.description>
+  <PlayerShieldGeneratorMortar_Blueprint.label>bouclier anti-mortier (fabriqué par l'Homme) (plan)</PlayerShieldGeneratorMortar_Blueprint.label>
+  <PlayerShieldGeneratorMortar_Blueprint_Install.label>bouclier anti-mortier (fabriqué par l'Homme) (plan)</PlayerShieldGeneratorMortar_Blueprint_Install.label>
+  <PlayerShieldGeneratorMortar_Frame.label>bouclier anti-mortier (fabriqué par l'Homme) (bâtiment)</PlayerShieldGeneratorMortar_Frame.label>
+  <PlayerShieldGeneratorMortar_Frame.description>Un dispositif de protection, basé sur la technologie mécanoïde, qui bloque les obus de mortier entrants dans un certain rayon. Nécessite de l'énergie.</PlayerShieldGeneratorMortar_Frame.description>
+
+
+</LanguageData>
