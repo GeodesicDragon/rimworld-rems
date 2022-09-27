@@ -2,14 +2,14 @@
 <Defs>
 	<TraderKindDef>
 		<defName>REMS_MechanoidShieldTrader</defName>
-		<label>mechanoid shield trader</label>
+		<label>mechanoid tech trader</label>
 		<commonality>0.2</commonality>
 		<orbital>true</orbital>
 		<requestable>true</requestable>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
-				<countRange>20000</countRange>
+				<countRange>10000</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PlayerShieldGeneratorMortar</thingDef>
@@ -20,20 +20,28 @@
 				<countRange>1</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>Player_Turret_AutoMortar</thingDef>
+				<countRange>-9~1</countRange> <!--Roughly 10% chance-->
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>Steel</thingDef>
-				<countRange>600</countRange>
+				<countRange>1600</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Plasteel</thingDef>
-				<countRange>150</countRange>
+				<countRange>650</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Uranium</thingDef>
-				<countRange>200</countRange>
+				<countRange>500</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentSpacer</thingDef>
-				<countRange>5</countRange>
+				<countRange>15</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>BroadshieldCore</thingDef>
+				<countRange>-2~2</countRange> <!--Roughly 50% chance-->
 			</li>
 		</stockGenerators>
 	</TraderKindDef>

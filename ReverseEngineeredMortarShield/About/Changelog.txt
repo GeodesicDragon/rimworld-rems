@@ -1,3 +1,26 @@
+Version 2.12.28 (September 27th 2022)
+
+* Added the ability to build your own auto mortars.
+	* Require research before they can be built; you will need to research shields first and also acquire 2 techprints.
+	* Require 1000 steel, 500 plasteel, 300 uranium, 10 advanced components, and a reinforced barrel to build.
+	* When destroyed, leaves behind 10% of the materials used to build it (minus the barrel).
+	* Market value of 15000 silver.
+	* Requires 2000W of power.
+	* Can be moved once built.
+	* Can be turned on and off.
+	* Can break down.
+	* Fires at the same rate as mechanoid mortars (once every 80 seconds).
+	* I will adjust things to make them more balanced depending on any feedback I get.
+* XML Extensions: Added the ability to configure how much power the auto mortar uses.
+* Renamed 'mechanoid shield trader' to 'mechanoid tech trader.'
+* Traders now have a roughly 10% chance of stocking an auto mortar.
+* Traders now have a roughly 50% chance of stocking up to two shield cores.
+* Increased amount of steel carried by traders to 1600 (was 600).
+* Increased amount of plasteel carried by traders to 650 (was 150).
+* Increased amount of uranium carried by traders to 500 (was 200).
+* Increased amount of advanced components carried by traders to 15 (was 5).
+* Reduced amount of silver carried by traders to 10000 (was 20000).
+
 Version 2.10.20 (September 11th 2022)
 
 * XML Extensions: This mod is now entirely optional, and the settings window will only be shown if it is enabled.

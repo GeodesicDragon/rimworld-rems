@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Reverse Engineered Mechanoid Shields</name>
+	<name>Reverse Engineered Mechanoid Tech</name>
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.rems</packageId>
 	<url>https://discord.gg/BGKnpza</url>
@@ -18,5 +18,7 @@
 	<loadAfter>
 		<li>Imranfish.XMLExtensions</li>
 	</loadAfter>
-	<description>With all the mechanoid clusters that have been landing on the rimworlds as of late, it was only a matter of time before some bright spark conceived a way to use their shielding technology for the betterment of colonists everywhere. With the right research, colonists can now build their own mortar and bullet shields - which do the same job as their mechanoid counterparts - to help defend themselves against all but the most determined of attackers.</description>
+	<description>With all the mechanoid clusters that have been landing on the rimworlds as of late, it was only a matter of time before some bright spark conceived a way to use their technology for the betterment of people everywhere. 
+	
+With the right research, colonists can build their own mortar and bullet shields - as well as auto mortars - to defend themselves against all but the most determined of attackers.</description>
 </ModMetaData>

@@ -1,0 +1,89 @@
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>Player_Turret_AutoMortar</defName>
+    <label>auto mortar (human made)</label>
+    <description>A self-loading, automatic mortar based on mechanoid tech. It can hit targets at any distance, even over walls, but it is quite inaccurate. As well as requiring a lot of materials to build, it also requires enormous amounts of power.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Mech/TurretMechLarge_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,-0.16)</drawOffset>
+      <damageData>
+        <rect>(0.3,0.3,1.4,1.4)</rect>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <costList>
+		<Steel>1000</Steel>
+		<Plasteel>500</Plasteel>
+		<Uranium>300</Uranium>
+		<ComponentSpacer>10</ComponentSpacer>
+		<ReinforcedBarrel>1</ReinforcedBarrel>
+    </costList>
+    <killedLeavings>
+      <Steel>100</Steel>
+      <Plasteel>50</Plasteel>
+	  <Uranium>30</Uranium>
+      <ComponentSpacer>1</ComponentSpacer>
+    </killedLeavings>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <statBases>
+	<MarketValue>15000</MarketValue>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>30</Mass>
+      <ShootingAccuracyTurret>0.9</ShootingAccuracyTurret>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+    </damageMultipliers>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <building>
+      <turretGunDef>Artillery_AutoMortar</turretGunDef>
+      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>80.0</turretBurstCooldownTime>
+      <turretInitialCooldownTime>120</turretInitialCooldownTime>
+      <soundAmbient>MechTurretBig_Call</soundAmbient>
+    </building>
+    <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<designationCategory>Security</designationCategory>
+	<researchPrerequisites>
+      <li>ReverseEngineerMortar</li>
+    </researchPrerequisites>
+	<hasTooltip>true</hasTooltip>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

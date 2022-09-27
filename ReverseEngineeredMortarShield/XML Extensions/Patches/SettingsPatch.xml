@@ -127,6 +127,22 @@
 		</caseFalse>
 	</Operation>
 	
+<!--AUTO MORTAR PATCHES-->
+
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId>
+		<key>REMS_AutoMortar_Power</key>
+		<defaultValue>2000</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Player_Turret_AutoMortar"]/comps/li/basePowerConsumption</xpath>
+				<value>
+					<basePowerConsumption>{REMS_AutoMortar_Power}</basePowerConsumption>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
 <!--RESEARCH PATCHES-->
 
 	<Operation Class="XmlExtensions.UseSetting">
@@ -240,6 +256,20 @@
 						<label>Shield core required</label>
 					</li>
 				</rightCol>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Auto Mortar Settings</text>
+				<font>Medium</font>
+				<anchor>Left</anchor>
+				<tooltip>null</tooltip>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Textbox">
+				<key>REMS_AutoMortar_Power</key>
+				<label>Power Requirement (W): </label>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.GapLine"/>
