@@ -143,6 +143,20 @@
 		</apply>
 	</Operation>
 	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId>
+		<key>REMS_AutoMortar_FireRate</key>
+		<defaultValue>80</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Player_Turret_AutoMortar"]/building/turretBurstCooldownTime</xpath>
+				<value>
+					<turretBurstCooldownTime>{REMS_AutoMortar_FireRate}</turretBurstCooldownTime>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
 <!--RESEARCH PATCHES-->
 
 	<Operation Class="XmlExtensions.UseSetting">
@@ -191,13 +205,12 @@
 
 	<Operation Class="XmlExtensions.CreateSettings">
 		<modId>geodesicdragon.rems</modId> <!--MUST be the same as the one entered earlier-->
-		<label>REMS</label> <!-- This is what displays as your mod's name-->
-		<settings> <!--This is where you define what settings are in the settings menu-->
+		<label>Reverse Engineered Mechanoid Tech</label> <!-- This is what displays as your mod's name-->
+		<settings> <!--This is where you define what settings are in the settings menu-->	
 			<li Class="XmlExtensions.Setting.Text">
 				<text>IMPORTANT: You will need to restart RimWorld after changing any of these settings.</text>
 				<font>Medium</font>
 				<anchor>Middle</anchor>
-				<tooltip>null</tooltip>
 			</li>
 	
 			<li Class="XmlExtensions.Setting.GapLine"/>
@@ -206,7 +219,6 @@
 				<text>Bullet Shield Settings</text>
 				<font>Medium</font>
 				<anchor>Left</anchor>
-				<tooltip>null</tooltip>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.Textbox">
@@ -235,7 +247,6 @@
 				<text>Mortar Shield Settings</text>
 				<font>Medium</font>
 				<anchor>Left</anchor>
-				<tooltip>null</tooltip>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.Textbox">
@@ -264,12 +275,20 @@
 				<text>Auto Mortar Settings</text>
 				<font>Medium</font>
 				<anchor>Left</anchor>
-				<tooltip>null</tooltip>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.Textbox">
 				<key>REMS_AutoMortar_Power</key>
 				<label>Power Requirement (W): </label>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Slider">
+				<key>REMS_AutoMortar_FireRate</key>
+				<defaultValue>80</defaultValue>
+				<min>30</min>
+				<max>120</max>
+				<label>Fire Rate: Once every {REMS_AutoMortar_FireRate} seconds</label>
+				<decimals>0</decimals>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.GapLine"/>
@@ -278,7 +297,6 @@
 				<text>Research Settings</text>
 				<font>Medium</font>
 				<anchor>Left</anchor>
-				<tooltip>null</tooltip>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.Textbox">
@@ -296,7 +314,6 @@
 						<text>Tech Level: </text>
 						<font>Small</font>
 						<anchor>Right</anchor>
-						<tooltip>null</tooltip>
 					</li>
 				</leftCol>
 				<rightCol>

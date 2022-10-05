@@ -69,12 +69,12 @@
 	<minifiedDef>MinifiedThing</minifiedDef>
     <building>
       <turretGunDef>Artillery_AutoMortar</turretGunDef>
-      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
-      <turretBurstCooldownTime>80.0</turretBurstCooldownTime>
+      <turretBurstWarmupTime>4</turretBurstWarmupTime>
+      <turretBurstCooldownTime>80</turretBurstCooldownTime>
       <turretInitialCooldownTime>120</turretInitialCooldownTime>
       <soundAmbient>MechTurretBig_Call</soundAmbient>
     </building>
-    <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Mech/TurretMechLarge_Base</uiIconPath>
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<designationCategory>Security</designationCategory>
 	<researchPrerequisites>

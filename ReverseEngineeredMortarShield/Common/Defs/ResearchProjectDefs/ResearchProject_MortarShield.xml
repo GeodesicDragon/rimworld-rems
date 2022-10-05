@@ -28,18 +28,18 @@
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
 		<discoveredLetterTitle>Building Shields</discoveredLetterTitle>
-		<discoveredLetterText>You now have the technology to build your own bullet and mortar shields.\n\nBuilding these items requires shield cores, which you can acquire from deconstructing shields found in mechanoid clusters.</discoveredLetterText>
+		<discoveredLetterText>You now have the technology to build your own bullet and mortar shields.\n\nBuilding these items requires shield cores; you can acquire these from deconstructing shields found in mechanoid clusters, though mechanoid tech traders may sometimes carry them as well.</discoveredLetterText>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="REMS">
 		<defName>ReverseEngineerMortar</defName>
 		<label>mechanoid auto mortar tech</label>
-		<description>Reverse engineer mechanoid auto mortars to produce versions that can be built by your colonists.</description>
+		<description>Reverse engineer mechanoid auto mortars to produce a version which can be built by your colonists.</description>
 		<prerequisites>
 			<li>ReverseEngineerMechShields</li>
 		</prerequisites>
 		<tab>PlayerMortarShield</tab>
-		<researchViewX>0</researchViewX>
+		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 </Defs>

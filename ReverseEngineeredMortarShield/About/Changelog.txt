@@ -1,3 +1,10 @@
+Version 2.13.31 (October 5th 2022)
+
+* Fixed spacing issue on research tab.
+* Fixed build button using the wrong texture.
+* XML Extensions: Added the ability to configure how often the auto mortar will fire.
+* XML Extensions: Removed 'null' tooltips on settings window.
+
 Version 2.12.28 (September 27th 2022)
 
 * Added the ability to build your own auto mortars.
