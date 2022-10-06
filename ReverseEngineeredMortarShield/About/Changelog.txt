@@ -1,3 +1,7 @@
+Version 2.13.32 (October 6th 2022)
+
+* Mod is now compatible with the RimWorld 1.4 patch.
+
 Version 2.13.31 (October 5th 2022)
 
 * Fixed spacing issue on research tab.
