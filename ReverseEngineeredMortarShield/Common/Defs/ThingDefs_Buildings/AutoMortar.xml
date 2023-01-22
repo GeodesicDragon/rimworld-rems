@@ -76,7 +76,7 @@
     </building>
     <uiIconPath>Things/Building/Mech/TurretMechLarge_Base</uiIconPath>
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-	<designationCategory>Security</designationCategory>
+	<designationCategory>REMT_Buildings</designationCategory>
 	<researchPrerequisites>
       <li>ReverseEngineerMortar</li>
     </researchPrerequisites>

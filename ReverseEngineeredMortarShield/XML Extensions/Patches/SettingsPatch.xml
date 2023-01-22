@@ -201,6 +201,22 @@
 		</apply>
 	</Operation>	
 	
+<!--BULLET AND MORTAR SHIELD PATCHES-->
+
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>geodesicdragon.rems</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>REMS_ShieldAura_HitPoints</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>300</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PlayerShieldGeneratorBullets" or defName="PlayerShieldGeneratorMortar"]/comps/li[@Class="CompProperties_ProjectileInterceptor"]/hitPoints</xpath>
+				<value>
+					<hitPoints>{REMS_ShieldAura_HitPoints}</hitPoints> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
 <!--SETTINGS WINDOW-->
 
 	<Operation Class="XmlExtensions.CreateSettings">
@@ -267,6 +283,25 @@
 						<label>Shield core required</label>
 					</li>
 				</rightCol>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Shield Aura Settings</text>
+				<font>Medium</font>
+				<anchor>Left</anchor>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Textbox">
+				<key>REMS_ShieldAura_HitPoints</key>
+				<label>Shield Hitpoints: </label>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>The higher this number is, the more projectiles can be intercepted by a shield before colonists protected by one become vulnerable. Shields take 60 seconds to recharge their hitpoints.</text>
+				<font>Small</font>
+				<anchor>Left</anchor>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.GapLine"/>

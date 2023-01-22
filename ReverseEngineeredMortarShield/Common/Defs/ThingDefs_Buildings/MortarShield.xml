@@ -6,7 +6,7 @@
 	<thingClass>Building</thingClass>
 	<category>Building</category>
     <label>mortar shield (human made)</label>
-    <description>A shielding device, based on mechanoid tech, which will block incoming mortars within a certain radius. Requires power.</description>
+    <description>A shielding device, based on mechanoid tech, which will block incoming mortars within a certain radius. The protective shield projected by this device weakens as it takes damage, eventually fading entirely and leaving colonists vulnerable.\n\nOnce it fades, it takes 60 seconds to recharge.</description>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <size>(1,1)</size>
     <statBases>
@@ -42,9 +42,15 @@
         <interceptAirProjectiles>true</interceptAirProjectiles>
         <color>(0, 1, 0)</color>
         <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
+        <activeSound>BulletShield_Ambience</activeSound>
+        <hitPoints>300</hitPoints>
+        <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
+        <chargeDurationTicks>3600</chargeDurationTicks> <!-- 60s -->
+        <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
+        <minIdleAlpha>0.2</minIdleAlpha>
+        <drawWithNoSelection>False</drawWithNoSelection>
         <disarmedByEmpForTicks>1080</disarmedByEmpForTicks>
-        <chargeIntervalTicks>600000</chargeIntervalTicks>
-        <chargeDurationTicks>60000</chargeDurationTicks>
+        <gizmoTipKey>ProjectileInterceptorTip</gizmoTipKey>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -61,7 +67,7 @@
 		<BroadshieldCore>1</BroadshieldCore>
     </costList>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-	<designationCategory>Security</designationCategory>
+	<designationCategory>REMT_Buildings</designationCategory>
 	<researchPrerequisites>
       <li>ReverseEngineerMechShields</li>
     </researchPrerequisites>

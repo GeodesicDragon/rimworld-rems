@@ -1,3 +1,22 @@
+Version 2.16.39 (January 22nd 2023)
+
+* Removed support for version 1.1 of RimWorld.
+* Removed support for version 1.2 of RimWorld.
+* Added the ability to build your own power cells.
+	* Generates 400W of power.
+	* Requires Electricity research.
+	* Require 100 steel and a component to build.
+	* Will explode in the same way as their mechanoid counterparts.
+	* Tech traders will have between one and three in stock at a time.
+	* Thanks to ACro from the Steam Workshop for the suggestion (and apologies for taking so damn long to actually do it).
+* Added designation category to the Architect menu where all of the buildings added by this mod can be found.
+* XML Extensions: Added option to configure hit points of the field projected by bullet and mortar shields.
+* Tech traders are now guaranteed to stock at least one auto mortar.
+* Tech traders are now guaranteed to stock two shield cores.
+* The field projected by bullet and mortar shields now weakens as it takes damage, eventually fading entirely and leaving your colonists vulnerable.
+* In line with the above change, the charge time of shields has been massively reduced to 60 seconds (was one day).
+* Fixed missing LoadFolders.xml details for version 1.4 of RimWorld.
+
 Version 2.13.32 (October 6th 2022)
 
 * Mod is now compatible with the RimWorld 1.4 patch.
