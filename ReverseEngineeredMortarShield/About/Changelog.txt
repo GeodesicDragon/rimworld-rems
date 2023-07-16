@@ -1,3 +1,10 @@
+Version 2.16.43 (July 16th 2023)
+
+* Auto mortars have received an upgrade which prevents them from exploding when taking too much damage. The only downside to this is the fact that they now require two additional advanced components to construct.
+* Auto mortars will drop an additional advanced component when destroyed.
+* You are no longer able to build auto mortars under a roof.
+* [SR]Factional War: NPCs partaking in Faction Bombardments should no longer build auto mortars instead of regular ones.
+
 Version 2.16.39 (January 22nd 2023)
 
 * Removed support for version 1.1 of RimWorld.
